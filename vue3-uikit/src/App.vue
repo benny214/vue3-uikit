@@ -49,4 +49,10 @@ const toggleMenu = () => {
   justify-content: center;
 }
 
+@media screen and (max-width: 1023px) {
+  .content {
+    margin-left: 0;
+  }
+}
+
 </style>
