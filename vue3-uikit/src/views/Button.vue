@@ -1,10 +1,19 @@
 <script setup>
 import Button from '@/components/Button.vue'
+
+const eventForBtn = () => {
+  alert('Clicked!')
+}
 </script>
 
 <template>
   <h1 class="heading-1">Кнопки</h1>
   <br>
+  <h2 class="heading-2">Событие на клик</h2>
+  <div class="line">
+    <Button label="Нажми меня!" color="danger" @click="eventForBtn"/>
+  </div>
+
   <h2 class="heading-2">Цвета</h2>
   <div class="line">
     <Button label=".primary" color="primary"/>

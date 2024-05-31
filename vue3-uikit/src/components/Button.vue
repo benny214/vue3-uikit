@@ -31,6 +31,12 @@ const props = defineProps({
   },
 })
 
+const emit = defineEmits(['click'])
+
+const clickOnBtn = () => {
+  emit('click')
+}
+
 </script>
 <template>
     <button 
@@ -41,7 +47,8 @@ const props = defineProps({
       {'btn--outlined': outlined},
       {'btn--icon': icon},
       {'btn--large': size === 'large'} ]" 
-      :disabled="disabled">
+      :disabled="disabled"
+      @click="clickOnBtn">
       <span v-if="icon">
         <font-awesome-icon :icon="`fa-regular fa-${icon}`" />
       </span>
