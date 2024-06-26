@@ -73,11 +73,11 @@ const eventForBtn = () => {
   <h2 class="heading-2">Размер</h2>
   <div class="line">
     <Button label=".primary" color="primary" size="large"/>
-    <Button label=".secondary" color="secondary" size="large"/>
+    <Button label=".secondary" color="secondary" />
     <Button label=".success" color="success" size="large"/>
-    <Button label=".info" color="info" size="large"/>
+    <Button label=".info" color="info" />
     <Button label=".warning" color="warning" size="large"/>
-    <Button label=".danger" color="danger" size="large"/>
+    <Button label=".danger" color="danger" />
   </div>
 </template>
 <style lang="scss" scoped>

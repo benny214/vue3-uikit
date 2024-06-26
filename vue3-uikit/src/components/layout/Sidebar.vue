@@ -11,6 +11,7 @@ const props = defineProps({
 const links = ref([
   {name: 'Типографика', href: '/typography'},
   {name: 'Кнопки', href: '/button'},
+  {name: 'Чекбокс', href: '/checkbox'},
 ])
 </script>
 
