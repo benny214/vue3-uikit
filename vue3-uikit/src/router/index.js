@@ -3,6 +3,8 @@ import Index from '@/views/Index.vue'
 import Typography from '@/views/Typography.vue'
 import Button from '@/views/Button.vue'
 import Checkbox from '@/views/Checkbox.vue'
+import RadioButton from '@/views/RadioButton.vue'
+import Input from '@/views/Input.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -26,6 +28,16 @@ const router = createRouter({
       path: '/checkbox',
       name: 'Checkbox',
       component: Checkbox
+    },
+    {
+      path: '/radio',
+      name: 'RadioButton',
+      component: RadioButton
+    },
+    {
+      path: '/input',
+      name: 'Input',
+      component: Input
     },
   ]
 })
