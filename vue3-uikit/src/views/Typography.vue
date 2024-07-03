@@ -12,17 +12,20 @@
     font-size: 34px;
     font-weight: 600;
     line-height: 41px;
+    margin-bottom: 24px;
   }
   &-2 {
     font-size: 22px;
     font-weight: 600;
     line-height: 28px;
+    margin-bottom: 16px;
   }
 
   &-3 {
     font-size: 17px;
     font-weight: 600;
     line-height: 22px;
+    margin-bottom: 8px;
   }
 }
 </style>
