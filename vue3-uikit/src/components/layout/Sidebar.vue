@@ -15,6 +15,7 @@ const links = ref([
   {name: 'Радио кнопка', href: '/radio'},
   {name: 'Инпут', href: '/input'},
   {name: 'Прогресс', href: '/progress'},
+  {name: 'Табы', href: '/tabs'},
 ])
 </script>
 
